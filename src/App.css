@@ -1,0 +1,87 @@
+.practice-container {
+  border-radius: 15px;
+  width: 400px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: rgba(193, 248, 247, 0.5);
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.15),    
+    -8px -8px 15px rgba(255, 255, 255, 0.7), 
+    inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.practice-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    10px 10px 20px rgba(0, 0, 0, 0.25),    
+    -10px -10px 20px rgba(255, 255, 255, 0.85), 
+    inset 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.practice-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 1em;
+}
+
+.practice-container h2 {
+  border-radius: 10px;
+  background-color: rgba(255, 32, 32, 0.8);
+  text-align: center;
+  font-size: 2.2em;
+  margin: 0 auto 1em auto;
+  border: 2px solid black;
+  width: 60%;
+  padding: 0.5em;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.practice-container button {
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 2em auto 0 auto;
+  height: 45px;
+  text-transform: uppercase;
+  background-color: rgba(0, 98, 255, 0.6);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 
+    5px 5px 10px rgba(244, 212, 212, 0.2),    
+    -5px -5px 10px rgba(255, 255, 255, 0.8), 
+    inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.practice-container button:hover {
+  background-color: rgba(0, 98, 255, 0.8);
+  transform: scale(1.05);
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 17, 0);
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0.5em 0;
+}
